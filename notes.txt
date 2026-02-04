@@ -1,0 +1,138 @@
+﻿ internal class VariablesDataTypes
+    {
+
+        /*
+         Day 2 – Data Types & Variables in C#
+            
+            1️) What is a Variable?
+            A variable is a container that stores data in memory.
+
+            Think of a labelled box:
+                Box name → Variable name
+                Item inside → Value
+            
+            2️) What is a Data Type?
+            A data type tells C#:
+                - What kind of data will be stored
+                - How much memory to allocate
+                - What operations are allowed
+
+            3️) Value Types vs Reference Types(Very Important)
+                - Value Types
+                - Store actual data
+                - Stored in stack
+                - Copy creates a new value
+
+                //char--> int--> long /string-->float--> double  --Implicitly type cast 
+                    * Happens when smaller data type → larger data type
+                //double-->float-->long/string-->int-->char --Explicitely typ cast 
+         */
+
+            // DATA TYPES :
+        private byte by = 255; // (1 byte = 8 bit; Range: 0 to 255)
+        private short temperature = -15; // (Range: -32,768 to 32,767 )
+        private int Num = 2541;
+        private long lo = 4356756454547887878;
+        private float Pi = 3.14F;
+        private double Number = 215455668.2584510;
+        private decimal dec = 49763535437.8454365437M;
+
+        private string Country = "India is great";
+        private bool IsValid = true;
+        private char ch = 'A';
+
+
+        // 1) Implicit Type Casting(Automatic / Safe)
+        // Happens when smaller data type → larger data type.
+        //byte → short → int → long → float → double → decimal
+        static int i = 100;
+        static long l = i;       // int → long
+        double d = l;     // long → double			
+
+        //char → int → long → float → double
+        static char Text = 'A';
+        static int ascii = Text;   // char → int (ASCII value 65)
+        static long lon = ascii;
+
+
+        // 2) Explicit Type Casting(Manual / Risky)
+        //Required when larger type → smaller type
+        //Possible data loss
+
+        //decimal → double → float → long → int → char
+
+        static double num = 10.75;
+        static int ix = (int)num;   // explicit casting
+        static long lx = (long)num;
+
+        // 3) String Conversions (Special Case) (String is never implicitly cast)
+        static string s = "100";
+        static int n = int.Parse(s);
+
+        static string Str = 123.ToString();
+			
+        public void VariablesDataTypesMethod()
+        {
+            Console.WriteLine(Str);
+        }
+		
+		// Array : 
+			int[] numbers = new int[5];
+			
+			int[] numbers1 = { 10, 20, 30 };
+			
+			int[] number = new int[] { 10, 20, 30 };
+					
+			
+	/* 
+		 Variables : container to store value.
+			Types of Variables in C#
+			1. Local Variables
+			- Defined inside method/block
+			 - Scope only inside that method
+					eg. void Show()	
+					{
+					int number = 10; // local variable
+					Console.WriteLine(number);
+				}
+			}
+			
+			2. Instance Variables (Non-static fields)
+			- Belong to object.
+			- Each object has separate copy.	
+				class Person
+					{
+						int age;  // instance variable
+					}
+				Person p1 = new Person();
+				Person p2 = new Person();
+				p1.age and p2.age are different
+				
+			3. Static Variables (Class variables)
+			- Shared across all objects.
+			- Only one copy exists
+				class Company
+				{
+					static string companyName = "TCS";
+				}
+				All objects share same value.
+				
+			4. Constant Variables (const)
+			- Value cannot change
+			- Must initialize at declaration
+				const double PI = 3.14;
+				PI = 4.0;
+				
+			5. Readonly Variables
+				- Can assign only once
+				- Assign in constructor
+				class Student
+					{
+						readonly int rollNo;
+						public Student(int r)
+					{
+						rollNo = r;
+					}
+					
+			 
+}
