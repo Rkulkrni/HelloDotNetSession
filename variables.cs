@@ -8,17 +8,24 @@ namespace HelloDotNetSession
 {
     internal class Variables
     {
+        readonly string country;
+        public Variables(string c) 
+        {
+            country = c;
+            Console.WriteLine(country);
+            Console.ReadLine();
+        }
         public Byte By = 100;
         public short temp = 32767;
         public int value = 435675647;
         public long lg = 4356756454000087667;
         private float Fl = 3.14F;
-        public double Number = 2154556682584510;
+        public double Number = 215455668258451;
         public decimal dec = 49763535437.8454365437M;
         private string Country = "India is great";
         private bool IsValid = true;
         private char ch = 'A';
-
+        static string Fname = "Codefist";
         //char → int → long → float → double
         static char Text = 'A';
         static int ascii = Text;   // char → int (ASCII value 65)
@@ -37,5 +44,22 @@ namespace HelloDotNetSession
             }
 
         }
+
+        // Variables : Container.
+        // local scole varaible
+        public void Execution() 
+        {
+            const int A = 10;
+        }
+
+        // instance variable ; 
+
+        // Static varibale
+
+        // const varaible
+
+        // readonly variable
     }
+
+
 }

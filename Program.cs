@@ -5,11 +5,14 @@ namespace HelloDotNetSession
     class cSharpBasic
     {
 
+
         public static void Main()
         {
-           //Variables variables = new Variables();
-           Variables variables = new Variables();
-            variables.Execute();
+            Operators o =  new Operators();//Operators
+            o.Airthmatic();
+
+            //Variables variables = new Variables();
+            //Variables v = new Variables("India");
         }
 
     }
