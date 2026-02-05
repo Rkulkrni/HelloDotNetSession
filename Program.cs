@@ -8,8 +8,14 @@ namespace HelloDotNetSession
 
         public static void Main()
         {
-            Operators o =  new Operators();//Operators
-            o.Airthmatic();
+
+            Conditions c = new Conditions(); // Conditions
+            //c.Check();
+            //c.Switch();
+            //c.getWhileLoop();
+            c.DoWhileLoop();
+            //Operators o =  new Operators();//Operators
+            //o.Airthmatic();
 
             //Variables variables = new Variables();
             //Variables v = new Variables("India");
