@@ -8,12 +8,21 @@ namespace HelloDotNetSession
 
         public static void Main()
         {
+            Collections collections = new Collections();
+            //collections.getArray();
+            //collections.getList();
+            //collections.GetDictonary();
+            //collections.GetStack();
+            //collections.GetQueue();
+            //collections.GetHashset();
 
-            Conditions c = new Conditions(); // Conditions
+
+            //Conditions c = new Conditions(); // Conditions
+            //c.forLoopExp();
             //c.Check();
             //c.Switch();
             //c.getWhileLoop();
-            c.DoWhileLoop();
+            //c.DoWhileLoop();
             //Operators o =  new Operators();//Operators
             //o.Airthmatic();
 

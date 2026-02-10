@@ -86,5 +86,13 @@ namespace HelloDotNetSession
                 Console.WriteLine($"You entered: {Number}");
             }
         }
+
+        public void forLoopExp()
+        {
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine(i);
+            }
+        }
     }
 }
