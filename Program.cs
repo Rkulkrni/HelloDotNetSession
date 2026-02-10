@@ -102,10 +102,21 @@ namespace HelloDotNetSession
 
 
 
-            // Datatypes and Type Cast :-
+            //// Datatypes and Type Cast :-
 
-            Prac_Operators op = new Prac_Operators();
-            op.ShowOperators();
+            //Prac_Operators op = new Prac_Operators();
+            //op.ShowOperators();
+
+
+            // Conditions :-
+
+            Prac_conditions cnd = new Prac_conditions();
+            //cnd.ifDemo();
+            //cnd.ifElseDemo();
+            //cnd.ifElseIFDemo();
+            //cnd.SwitchDemo();
+            //cnd.WhileDemo();
+            cnd.DoWhileDemo();
         }
 
     }
