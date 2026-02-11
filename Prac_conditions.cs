@@ -117,5 +117,31 @@ namespace HelloDotNetSession
                 m += 5;
             } while (m <= 70);
         }
+
+        // ================= FOR LOOP =================
+
+        public void ForLoopDemo()
+        {
+            int n = 100;
+            for(int i = 1; i <= n; i++)
+            {
+                if(i % 5 == 0 && i % 3 == 0)
+                {
+                    Console.WriteLine("fizzbuzz");
+                }
+                else if (i % 5 == 0)
+                {
+                    Console.WriteLine("buzz");
+                }
+                else if (i % 3 == 0)
+                {
+                    Console.WriteLine("Fizz");
+                }
+                else
+                {
+                    Console.WriteLine(i);
+                }
+            }
+        }
     }
 }

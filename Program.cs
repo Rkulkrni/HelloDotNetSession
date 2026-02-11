@@ -8,8 +8,17 @@ namespace HelloDotNetSession
 
         public static void Main()
         {
+<<<<<<< Updated upstream
+            Collections collections = new Collections();
+            //collections.getArray();
+            //collections.getList();
+            //collections.GetDictonary();
+            //collections.GetStack();
+            //collections.GetQueue();
+            //collections.GetHashset();
 
             //Conditions c = new Conditions(); // Conditions
+            //c.forLoopExp();
             //c.Check();
             //c.Switch();
             //c.getWhileLoop();
@@ -19,9 +28,24 @@ namespace HelloDotNetSession
             //Operators o =  new Operators();//Operators
             //o.Airthmatic();
 
+=======
+            //Operators o =  new Operators();//Operators
+            //o.Airthmatic();
+>>>>>>> Stashed changes
 
             //Variables variables = new Variables();
             //Variables v = new Variables("India");
+
+<<<<<<< Updated upstream
+
+
+
+
+
+
+
+
+
 
 
 
@@ -104,19 +128,36 @@ namespace HelloDotNetSession
 
             //// Datatypes and Type Cast :-
 
-            //Prac_Operators op = new Prac_Operators();
+            //Prac_operators op = new Prac_operators();
             //op.ShowOperators();
+
 
 
             // Conditions :-
 
-            Prac_conditions cnd = new Prac_conditions();
+            //Prac_conditions cnd = new Prac_conditions();
             //cnd.ifDemo();
             //cnd.ifElseDemo();
             //cnd.ifElseIFDemo();
             //cnd.SwitchDemo();
             //cnd.WhileDemo();
-            cnd.DoWhileDemo();
+            //cnd.DoWhileDemo();
+            //cnd.ForLoopDemo();
+
+
+            // Collections :-
+
+            Prac_collections cll = new Prac_collections();
+            cll.GetArray();
+            cll.GetList();
+            cll.GetDictionary();
+            cll.GetHashSet();
+            cll.GetStack();
+            cll.GetQueue();
+=======
+            Operators_variables ov = new Operators_variables();
+            ov.
+>>>>>>> Stashed changes
         }
 
     }
