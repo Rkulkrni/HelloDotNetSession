@@ -80,5 +80,67 @@ namespace HelloDotNetSession
 
         }
 
+
+        /*
+         * class Student
+        {
+            public int Id { get; set; }
+            public string Name { get; set; }
+            public int Marks { get; set; }
+            public string City { get; set; }
+        }
+
+           List<Student> students = new List<Student>
+        {
+        new Student { Id=1, Name="Amay", Marks=90, City="Pune" },
+        new Student { Id=2, Name="Amit", Marks=70, City="Mumbai" },
+        new Student { Id=3, Name="Neha", Marks=85, City="Pune" },
+        new Student { Id=4, Name="Priya", Marks=60, City="Delhi" },
+        new Student { Id=5, Name="Karan", Marks=95, City="Mumbai" }
+        };
+
+        1️. Scholarship Selection
+        Your company gives scholarships to students scoring above 85 marks.Fetch all eligible students.
+
+        2. Email Campaign
+            You need to send emails to all students.
+            Extract only student names into a separate list.
+
+        3. Rank List
+            Principal wants to display students sorted by highest marks first.
+            Show students in descending order of marks.
+
+        4. Fail List
+            Students scoring below 70 are failed.
+            Get list of failed students.
+
+        5. Training workshop is happening only in Pune.
+            Fetch all students from Pune.
+         
+        6. Topper Search
+            Find the single student with highest marks.
+
+        7. Attendance Check
+            Check if any student scored full marks (100).
+            Return true or false.
+
+        8. Batch Size
+            Admin wants to know how many students are from Mumbai.
+            Return count only.
+
+        9. Only top 3 performers will attend national competition.
+            Get top 3 students based on marks.
+
+        10. Pagination Scenario
+            Website shows 2 students per page.
+            Skip first 2 students and show remaining students.
+
+        11. City-wise Report
+            Management wants students grouped by city.
+            Display students city-wise.
+         */
+
+
+
     }
 }
