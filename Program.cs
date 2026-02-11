@@ -8,7 +8,11 @@ namespace HelloDotNetSession
 
         public static void Main()
         {
-            Collections collections = new Collections();
+            LINQ lINQ = new LINQ();
+            lINQ.getLINQOperator();
+
+
+            //Collections collections = new Collections();
             //collections.getArray();
             //collections.getList();
             //collections.GetDictonary();
