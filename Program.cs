@@ -9,11 +9,30 @@ namespace HelloDotNetSession
 
         public static void Main()
         {
-            //Encapsulation
+            // Inheritance
+            //Son son = new Son();
+            //son.FatherMethod();
+            //son.SonMethod();
 
-            Car car = new Car();
-            car.SetCarSpeedLimit(-100);
-            car.GetCarSpeedLimit();
+            //Section section = new Section();
+            //section.SectionMethod();
+            //section.CollegeMethod();
+            //section.UniversityMethod();
+
+            CEO ceo = new CEO();
+            ceo.OrganisationMethod();
+
+            CTO cto = new CTO();
+            cto.OrganisationMethod();
+
+            
+
+
+
+            //Encapsulation
+            //Car car = new Car();
+            //car.SetCarSpeedLimit(-100);
+            //car.GetCarSpeedLimit();
 
 
             //Car car = new Car();
