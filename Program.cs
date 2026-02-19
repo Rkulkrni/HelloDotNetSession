@@ -1,5 +1,6 @@
-﻿using System;
-using HelloDotNetSession;
+﻿using HelloDotNetSession;
+using System;
+using static HelloDotNetSession.Prac_LINQ;
 namespace HelloDotNetSession
 {
     class cSharpBasic
@@ -8,14 +9,27 @@ namespace HelloDotNetSession
 
         public static void Main()
         {
-<<<<<<< Updated upstream
-            Collections collections = new Collections();
+
+            //Collections collections = new Collections();
             //collections.getArray();
             //collections.getList();
             //collections.GetDictonary();
             //collections.GetStack();
             //collections.GetQueue();
             //collections.GetHashset();
+
+            //LINQ lINQ = new LINQ();
+            //lINQ.getLINQOperator();
+
+
+            //Collections collections = new Collections();
+            //collections.getArray();
+            //collections.getList();
+            //collections.GetDictonary();
+            //collections.GetStack();
+            //collections.GetQueue();
+            //collections.GetHashset();
+
 
             //Conditions c = new Conditions(); // Conditions
             //c.forLoopExp();
@@ -24,19 +38,13 @@ namespace HelloDotNetSession
             //c.getWhileLoop();
             //c.DoWhileLoop();
 
-
             //Operators o =  new Operators();//Operators
             //o.Airthmatic();
 
-=======
-            //Operators o =  new Operators();//Operators
-            //o.Airthmatic();
->>>>>>> Stashed changes
 
             //Variables variables = new Variables();
             //Variables v = new Variables("India");
 
-<<<<<<< Updated upstream
 
 
 
@@ -147,17 +155,23 @@ namespace HelloDotNetSession
 
             // Collections :-
 
-            Prac_collections cll = new Prac_collections();
-            cll.GetArray();
-            cll.GetList();
-            cll.GetDictionary();
-            cll.GetHashSet();
-            cll.GetStack();
-            cll.GetQueue();
-=======
-            Operators_variables ov = new Operators_variables();
-            ov.
->>>>>>> Stashed changes
+            //Prac_collections cll = new Prac_collections();
+            //cll.GetArray();
+            //cll.GetList();
+            //cll.GetDictionary();
+            //cll.GetHashSet();
+            //cll.GetStack();
+            //cll.GetQueue();
+
+
+            // LINQ :- 
+
+            //Prac_LINQ lINQ1 = new Prac_LINQ();
+            //lINQ1.RunAllExamples();
+
+            Practice_LINQ_RealTime LNQ = new Practice_LINQ_RealTime();
+            LNQ.LINQExample();
+
         }
 
     }
